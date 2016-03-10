@@ -1,0 +1,806 @@
+[
+{  
+  "_id":"c-01",
+  	"_parentId":"b-01",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"text-sub",
+    "_layout":"full",
+    "title":"Header",
+    "displayTitle":"Course Title",
+    "body":"Module Title",
+    "instruction":"",
+     "_pageLevelProgress": {
+    "_isEnabled": true
+    }
+},   
+{  
+  "_id":"c-02",
+  	"_parentId":"b-01",
+    "_type":"component",
+    "_component":"graphic",
+    "_classes":"",
+    "_layout":"full",
+    "title":"",
+    "displayTitle":"",
+    "body":"",
+    "instruction":"",
+    "height": "506px",
+    "_graphic": {
+        "alt": "",
+        "large": "course/en/images/SV-header.png",
+        "small": "course/en/images/SV-header.png",
+        "attribution":""
+    },
+    "_isOptional": true
+},
+{  
+  "_id":"c-03",
+  	"_parentId":"b-01",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"text-main",
+    "_layout":"full",
+    "title":"",
+    "displayTitle":"",
+    "body":"<b>In this module:</b> <br><li>We’ll describe what we're about to learn here.</li><li>In a couple of bullet points.</li>",
+    "instruction":"",
+    "_isOptional": true
+}, 
+
+{
+    "_id":"c-04",
+    "_parentId":"b-02",
+    "_type":"component",
+    "_component":"media",
+    "_classes":"",
+    "_layout":"full",
+    "title":"Video",
+    "displayTitle": "Media Component",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn":"ended",
+    "_useClosedCaptions":true,
+    "_media": {
+        "mp4": "course/en/video/c-40.mp4",
+        "ogv": "course/en/video/c-40.ogv",
+        "poster": "course/en/video/poster.png",
+        "cc": [
+            {
+                "srclang": "en",
+                "src": "course/en/video/big_buck_bunny_sub.vtt"
+            }
+        ]
+    },
+    "_playerOptions": {
+        "poster": "",
+        "showPosterWhenEnded": true,
+        "defaultVideoWidth": 480,
+        "defaultVideoHeight": 270,
+        "videoWidth": -1,
+        "videoHeight": -1,
+        "defaultAudioWidth": 400,
+        "defaultAudioHeight": 30,
+        "defaultSeekBackwardInterval": "(media.duration * 0.05)",
+        "defaultSeekForwardInterval": "(media.duration * 0.05)",
+        "audioWidth": -1,
+        "audioHeight": -1,
+        "startVolume": 0.8,
+        "loop": false,
+        "autoRewind": true,
+        "enableAutosize": true,
+        "alwaysShowHours": false,
+        "showTimecodeFrameCount": false,
+        "framesPerSecond": 25,
+        "autosizeProgress" : true,
+        "alwaysShowControls": false,
+        "hideVideoControlsOnLoad": false,
+        "clickToPlayPause": true,
+        "iPadUseNativeControls": true,
+        "iPhoneUseNativeControls": true,
+        "AndroidUseNativeControls": true,
+        "features": ["playpause","current","progress","duration","tracks","volume"],
+        "isVideo": true,
+        "enableKeyboard": true,
+        "pauseOtherPlayers": true,
+        "startLanguage": "",
+        "tracksText": "mejs.i18n.t('Captions/Subtitles')",
+        "hideCaptionsButtonWhenEmpty": true,
+        "toggleCaptionsButtonWhenOnlyOne": true,
+        "slidesSelector": ""
+    },
+     "_pageLevelProgress": {
+    "_isEnabled": true
+    }
+},
+
+{
+    "_id":"c-05",
+    "_parentId":"b-03",
+	"_type":"component",
+	"_component":"mcq",
+	"_classes":"",
+	"_layout":"full",
+	"_attempts":1,
+	"_questionWeight":1,
+	"_isRandom":false,
+	"_selectable":1,
+	"title": "Question",
+	"displayTitle": "Multiple Choice Question",
+	"body": "Which tasks would be associated with returns and refunds calls?",
+	"instruction": "",
+	"_items": [
+		{
+			"text": "Make outgoing calls.",
+			"_shouldBeSelected":true
+		},
+		{
+			"text": "Take incoming calls.",
+			"_shouldBeSelected":false
+		},
+		{
+			"text": "Track orders.",
+			"_shouldBeSelected":false
+		},
+		{
+			"text": "Process refunds.",
+			"_shouldBeSelected":false
+		},
+		{
+			"text": "Process orders.",
+			"_shouldBeSelected":false
+		}
+	],
+    "_feedback":{
+        "correct":"Yes, that’s right.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "We would choose different tasks."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "We would choose different tasks."
+      }
+	},	
+	"_feedbackgraphic":{
+        "correct":"course/en/images/correct.png",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+      }
+	},	
+	"_feedbackgraphicalt":{
+        "correct":"Correct Image",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Incorrect Image"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "Partially Correct Image"
+      }
+	},	
+	"_feedbackgraphictitle":{
+        "correct":"That's right!",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "No, that's not right."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "That's almost right"
+      }
+	},	
+	"_feedbackaudiosrcmp3":{
+        "correct":"course/en/audio/mcq1/correct.mp3",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+      }
+	},
+	"_feedbackaudiosrcogg":{
+        "correct":"course/en/audio/mcq1/correct.ogg",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+      }
+	},
+	"_buttons":{
+		"submit":"",
+		"reset":"",
+		"showCorrectAnswer":"",
+		"hideCorrectAnswer":""
+	},
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
+    
+{
+    "_id": "c-06",
+    "_parentId":"b-04",
+    "_classes": "",
+    "_type":"component",
+    "_component": "hotgraphic",
+    "_layout": "full",    
+    "title": "Hot graphic",
+    "displayTitle": "Hot graphic",
+    "body": "This is optional body text. Select the hotspots on the image to reveal the text. This component will scale down to a narrative when viewed on mobile.",
+    "mobileBody": "This is optional body text that will be shown when viewed on mobile.",
+    "instruction":"",
+    "mobileInstruction": "This is optional instruction text that will be shown when viewed on mobile.",
+    "_setCompletionOn":"inview",
+    "_useGraphicsAsPins": false,
+    "_canCycleThroughPagination": false,
+    "_hidePagination": false,
+    "_graphic": {
+      "src": "course/en/images/placeholder_background_l.jpg",
+      "alt": "alt text"
+    },
+    "_items": [
+        {
+            "title": "Hotspot 1 title",
+            "body": "This is display text 1.",
+            "_graphic": {
+                "src": "course/en/images/placeholder_avatar_l.jpg",
+                "alt": "alt text",
+                "_classes": ""
+            },
+            "pinAlt": "alt text",
+            "strapline": "strapline...",
+            "_classes": "top-left",
+            "_top": 5,
+            "_left": 20
+        },
+        {
+            "title": "Hotspot 2 title",
+            "body": "This is display text 2.",
+            "_graphic": {
+                "src": "course/en/images/placeholder_avatar_l.jpg",
+                "alt": "alt text",
+                "_classes": ""
+            },
+            "pinAlt": "alt text",
+            "strapline": "strapline...",
+            "_classes": "center",
+            "_top": 25,
+            "_left": 60
+        },
+        {
+            "title": "Hotspot 3 title",
+            "body": "This is display text 3.",
+            "_graphic": {
+                "src": "course/en/images/placeholder_avatar_l.jpg",
+                "alt": "alt text",
+                "_classes": ""
+            },
+            "pinAlt": "alt text",
+            "strapline": "strapline...",
+            "_classes": "bottom-right",
+            "_top": 40,
+            "_left": 40
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
+  
+{
+    "_id":"c-07",
+    "_parentId":"b-05",
+    "_type":"component",
+    "_component":"gmcq",
+    "_classes":"",
+    "_layout":"full",
+    "_attempts":1,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight":1,
+    "_isRandom":false,
+    "_selectable":1,
+    "title": "GMCQ",
+    "displayTitle": "GMCQ",
+    "body": "Which of the following options would you consider to be correct?",
+    "instruction": "",
+    "_items": [
+        {
+            "text": "This is option 1.",
+            "_shouldBeSelected":true,
+            "_graphic": {
+                "alt": "Alt text for option 1",
+                "large": "course/en/images/sc.svg",
+                "small": "course/en/images/sc.svg"
+            }
+        },
+        {
+            "text": "This is option 2.",
+            "_shouldBeSelected":false,
+            "_graphic": {
+                "alt": "Alt text for option 2",
+                "large": "course/en/images/cg.svg",
+                "small": "course/en/images/cg.svg"
+            }
+        },
+        {
+            "text": "This is option 3.",
+            "_shouldBeSelected":false,
+            "_graphic": {
+                "alt": "Alt text for option 3",
+                "large": "course/en/images/chs.svg",
+                "small": "course/en/images/chs.svg"
+            }
+        },
+        {
+            "text": "This is option 4.",
+            "_shouldBeSelected":false,
+            "_graphic": {
+                "alt": "Alt text for option 4",
+                "large": "course/en/images/sh.svg",
+                "small": "course/en/images/sh.svg"
+            }
+        }
+    ],
+    "_feedback":{
+        "correct":"Congratulations, this is the correct feedback.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Unfortunately this is the incorrect feedback."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "This is the partly correct feedback."
+        }
+    },"_feedbackgraphic":{
+        "correct":"course/en/images/correct.png",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+      }
+	},	
+	"_feedbackgraphicalt":{
+        "correct":"Correct Image",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Incorrect Image"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "Partially Correct Image"
+      }
+	},	
+	"_feedbackgraphictitle":{
+        "correct":"That's right!",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "No, that's not right."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "That's almost right"
+      }
+	},	
+	"_feedbackaudiosrcmp3":{
+        "correct":"course/en/audio/mcq1/correct.mp3",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+      }
+	},
+	"_feedbackaudiosrcogg":{
+        "correct":"course/en/audio/mcq1/correct.ogg",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+      }
+	},    
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},    
+{ 
+  "_id":"c-08",
+  "_parentId":"b-06",
+  "_type":"component",
+  "_component":"webObject",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Web Object",
+        "displayTitle":"HTML content",
+        "body":"",
+        "instruction":"",
+        "_webObject": {
+            "type": "text/html",
+            "data": "course/en/embed/webObject-1/edge-graphic.html",
+            "width": "100%",
+            "height": "450px"
+        },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+
+},
+    {
+    "_id": "c-09",
+    "_parentId":"b-08",
+    "_classes": "",
+    "_layout": "full",
+    "_type": "component",
+    "_component": "matching",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_isRandom":false,
+    "_questionWeight":10,
+    "title": "",
+    "displayTitle": "Matching",
+    "body": "Match each of the following scenarios to the correct answer.",
+    "instruction":"",
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": "Select here to show your answer."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": "Select here to hide your answer."
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": "Select here to submit your feedback."
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+"_feedback":{
+        "correct":"Congratulations, this is the correct feedback.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Unfortunately this is the incorrect feedback."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "This is the partly correct feedback."
+        }
+    },"_feedbackgraphic":{
+        "correct":"course/en/images/correct.png",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+      }
+    },  
+    "_feedbackgraphicalt":{
+        "correct":"Correct Image",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Incorrect Image"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "Partially Correct Image"
+      }
+    },  
+    "_feedbackgraphictitle":{
+        "correct":"That's right!",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "No, that's not right."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "That's almost right"
+      }
+    },  
+    "_feedbackaudiosrcmp3":{
+        "correct":"course/en/audio/mcq1/correct.mp3",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+      }
+    },
+    "_feedbackaudiosrcogg":{
+        "correct":"course/en/audio/mcq1/correct.ogg",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+      }
+    },  
+    "placeholder": "Select Answer",
+    "_items": [
+        {
+            "text": "Scenario A",
+            "_options": [
+                {
+                    "text": "Option 1",
+                    "_isCorrect": false
+                },
+                {
+                    "text": "Option 2",
+                    "_isCorrect": true
+                },
+                {
+                    "text": "Option 3",
+                    "_isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Scenario B",
+            "_options": [
+                {
+                    "text": "Option 1",
+                    "_isCorrect": false
+                },
+                {
+                    "text": "Option 2",
+                    "_isCorrect": true
+                },
+                {
+                    "text": "Option 3",
+                    "_isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "Scenario C",
+            "_options": [
+                {
+                    "text": "Option 1",
+                    "_isCorrect": false
+                },
+                {
+                    "text": "Option 2",
+                    "_isCorrect": true
+                },
+                {
+                    "text": "Option 3",
+                    "_isCorrect": false
+                }
+            ]
+        } 
+    ],
+         "_pageLevelProgress": {
+         "_isEnabled": false
+        
+    }
+  },
+
+{
+    "_id":"c-10",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"textinput",
+    "_classes":"",
+    "_layout":"full",
+    "title": "Text Input Question",
+    "displayTitle": "Input your answer",
+    "body": "If A is 1% and Z is 26%, what are B, C and D?",
+    "instruction": "",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight":10,
+    "_isRandom":false,
+    "_allowsAnyCase": true,
+    "_allowsPunctuation": true,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_feedback":{
+        "correct":"Congratulations, this is the correct feedback.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Unfortunately this is the incorrect feedback."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "This is the partly correct feedback."
+        }
+    },"_feedbackgraphic":{
+        "correct":"course/en/images/correct.png",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/images/incorrect.png"
+      }
+	},	
+	"_feedbackgraphicalt":{
+        "correct":"Correct Image",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Incorrect Image"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "Partially Correct Image"
+      }
+	},	
+	"_feedbackgraphictitle":{
+        "correct":"That's right!",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "No, that's not right."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "That's almost right"
+      }
+	},	
+	"_feedbackaudiosrcmp3":{
+        "correct":"course/en/audio/mcq1/correct.mp3",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.mp3"
+      }
+	},
+	"_feedbackaudiosrcogg":{
+        "correct":"course/en/audio/mcq1/correct.ogg",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "course/en/audio/mcq1/incorrect.ogg"
+      }
+	},
+    "_items": [
+        {
+            "prefix": "B: The answer to this question B in % is",
+            "suffix": "%",
+            "_answers": [
+                "2",
+                "two"
+            ],
+            "placeholder": "Enter answer here"
+        },
+        {
+            "prefix": "C: The answer to this question C in % is",
+            "suffix": "%",
+            "_answers": [
+                "3",
+                "three"
+            ],
+            "placeholder": "Enter answer here"
+        },
+        {
+            "prefix": "D: The answer to this question D in % is",
+            "suffix": "%",
+            "_answers": [
+                "4",
+                "four"
+            ],
+            "placeholder": "Enter answer here"
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},    
+    
+{
+    "_id":"c-14",
+    "_parentId":"b-80",
+    "_type":"component",
+    "_component":"graphic",
+    "_classes":"",
+    "_layout":"full",
+    "title":"Footer",
+    "displayTitle":"",
+    "body":"",
+    "instruction":"",
+    "_graphic": {
+        "alt": "alt text",
+        "large": "course/en/images/adapt_footer.png",
+        "small": "course/en/images/adapt_footer.png",
+        "attribution":"© 2016"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},    
+{  
+  "_id":"c-15",
+  	"_parentId":"b-80",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"text-main",
+    "_layout":"full",
+    "title":"",
+    "displayTitle":"",
+    "body":"In the next module you’ll discover that by finding out what you can before talking to the agent, you are better prepared to discuss the their performance.",
+    "instruction":"",
+    "_isOptional": true
+}
+]
